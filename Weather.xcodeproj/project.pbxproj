@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB1AE1D91EC4561D00B601F4 /* Blood.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1AE1D61EC4561D00B601F4 /* Blood.png */; };
+		CB1AE1DA1EC4561D00B601F4 /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1AE1D71EC4561D00B601F4 /* Moon.png */; };
+		CB1AE1DB1EC4561D00B601F4 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1AE1D81EC4561D00B601F4 /* Sun.png */; };
 		CB3ED2581EC4222C00131F2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3ED2571EC4222C00131F2F /* AppDelegate.swift */; };
 		CB3ED25A1EC4222C00131F2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3ED2591EC4222C00131F2F /* ViewController.swift */; };
 		CB3ED25D1EC4222C00131F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3ED25B1EC4222C00131F2F /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB1AE1D61EC4561D00B601F4 /* Blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blood.png; sourceTree = "<group>"; };
+		CB1AE1D71EC4561D00B601F4 /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon.png; sourceTree = "<group>"; };
+		CB1AE1D81EC4561D00B601F4 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = "<group>"; };
 		CB3ED2541EC4222C00131F2F /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3ED2571EC4222C00131F2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB3ED2591EC4222C00131F2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 		CB3ED2561EC4222C00131F2F /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				CB1AE1D61EC4561D00B601F4 /* Blood.png */,
+				CB1AE1D71EC4561D00B601F4 /* Moon.png */,
+				CB1AE1D81EC4561D00B601F4 /* Sun.png */,
 				CB3ED2571EC4222C00131F2F /* AppDelegate.swift */,
 				CB3ED2591EC4222C00131F2F /* ViewController.swift */,
 				CB3ED25B1EC4222C00131F2F /* Main.storyboard */,
@@ -124,7 +133,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB1AE1DB1EC4561D00B601F4 /* Sun.png in Resources */,
+				CB1AE1D91EC4561D00B601F4 /* Blood.png in Resources */,
 				CB3ED2621EC4222C00131F2F /* LaunchScreen.storyboard in Resources */,
+				CB1AE1DA1EC4561D00B601F4 /* Moon.png in Resources */,
 				CB3ED25F1EC4222C00131F2F /* Assets.xcassets in Resources */,
 				CB3ED25D1EC4222C00131F2F /* Main.storyboard in Resources */,
 			);
@@ -304,6 +316,7 @@
 				CB3ED2681EC4222C00131F2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
